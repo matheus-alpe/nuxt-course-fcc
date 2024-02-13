@@ -29,6 +29,10 @@
             <li>
                 <NuxtLink to="/custom">Custom</NuxtLink>
             </li>
+
+            <li>
+                <NuxtLink to="/plugins">Plugins</NuxtLink>
+            </li>
         </ul>
     </header>
 </template>
