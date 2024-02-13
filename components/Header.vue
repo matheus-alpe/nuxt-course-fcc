@@ -23,7 +23,11 @@
             </li>
 
             <li>
-                <NuxtLink to="/events/profile">Profile</NuxtLink>
+                <NuxtLink to="/events/profile">Events/Profile</NuxtLink>
+            </li>
+
+            <li>
+                <NuxtLink to="/custom">Custom</NuxtLink>
             </li>
         </ul>
     </header>

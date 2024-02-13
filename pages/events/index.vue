@@ -1,3 +1,6 @@
+
 <template>
-  <div>Events page</div>
+  <NuxtLayout name="custom">
+    <div>Events page</div>
+  </NuxtLayout>
 </template>
