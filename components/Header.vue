@@ -4,7 +4,7 @@
 
 <template>
     <header class="bg-white bg-opacity-10 p-2 rounded-md mb-5">
-        <ul class="flex gap-5 underline text-sky-50">
+        <ul class="flex flex-wrap gap-5 underline text-sky-50">
             <li>
                 <NuxtLink to="/">Home</NuxtLink>
             </li>
@@ -32,6 +32,14 @@
 
             <li>
                 <NuxtLink to="/plugins">Plugins</NuxtLink>
+            </li>
+
+            <li>
+                <NuxtLink to="/blog">Blog</NuxtLink>
+            </li>
+
+            <li>
+                <NuxtLink to="/products">Products</NuxtLink>
             </li>
         </ul>
     </header>
