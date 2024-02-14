@@ -2,6 +2,13 @@
 definePageMeta({
   middleware: 'logger'
 })
+
+const response = await $fetch('/api/hello')
+console.log('response from server/api/hello:', response)
+
+const response2 = await $fetch('/hello')
+console.log('response from server/routes/hello:', response2)
+
 const utils = useUtils()
 utils.sayHello()
 </script>
